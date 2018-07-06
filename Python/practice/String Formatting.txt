@@ -1,0 +1,34 @@
+name = raw_input("What is your name? ")
+quest = raw_input("What is your quest? ")
+color = raw_input("What is your favorite color? ")
+
+print "Ah, so your name is %s , your quest is %s, " \
+"and your favorite color is %s." % (name, quest, color)
+
+
+-----------------
+
+What is your name? name
+What is your quest? 1
+What is your favorite color? black
+Ah, so your name is name , your quest is 1, and your favorite color is black.
+
+
+-----------------
+
+You can print a variable with a method all on one line, like so: print my_variable.upper().
+
+-----------------
+
+my_string = "Hello World!"
+print len(my_string).upper()
+
+-----------------
+
+HELLO WORLD!
+
+----------------
+my_string = "Hello World!"
+print len(my_string.upper())
+----------------
+12
